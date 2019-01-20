@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+html,
+body {
+  height: 100%;
+}
+body {
+  background: linear-gradient(90deg, #fff 0%,#fff 40%,#b32711 40%,#da3a21 100%);
+}
+
+h1 {
+  font-family: 'Karla', sans-serif;
+  color: #525252;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 0.8;
+  margin: 0 0 3px;
+  letter-spacing: -2px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container-form {
+  background: #fff;
+  width: 410px;
+  border-radius: 12px;
+  padding: 25px;
+  margin: 0 15px;
+  box-shadow: 0 1px 14px rgba(0, 0, 0, 0.2), 0 7px 4px rgba(0, 0, 0, 0.05);
+}
+
+.container-form-form {
+  margin-top: 25px;
+}
+
+.container-form-description {
+  font-size: 11px;
+  font-family: 'Karla', sans-serif;
+  color: #7b7b7b;
+}
+
+.container-form-item {
+  margin-bottom: 15px;
+}
+
+.container-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.container-form-label,
+.container-form-leyend {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-bottom: 9px;
+  display: block;
+}
+
+.container-form-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  background: #f5f5f5;
+  border: 1px solid #eaeaea;
+  min-height: 38px;
+  padding: 0px 10px;
+  border-radius: 3px;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  color: #505050;
+}
+
+.container-form-dropdown {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  color: #505050;
+  height: 38px;
+  border: 1px solid #eaeaea;
+  width: 100%;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+.container-form-checkbox {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  color: #505050;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-form-input--textarea {
+  min-height: 76px;
+  padding: 10px;
+}
+
+.container-form-submit {
+  border-radius: 2px;
+  border: 0;
+  color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background: #d74015;
+  padding: 10px 16px;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  margin: 18px 0 0;
+  cursor: pointer;
+}
+
+.container-form-submit:hover {
+  animation-name: dark-color;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes dark-color {
+  100% {
+    background: #b22d03;
+  }
+}
